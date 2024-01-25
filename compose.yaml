@@ -1,0 +1,7 @@
+services:
+  discovery_service:
+    image: discovery_service
+    ports:
+      - "9000:9000"
+    networks:
+      - discovery_service_network
